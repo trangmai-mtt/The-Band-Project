@@ -1,0 +1,88 @@
+/* RESPONSIVE */
+/* PC - min-width : 1024px*/
+@media (min-width : 64em) {
+
+}
+
+/* Tablet min-width : 740px; max-width : 1023 */
+@media (min-width : 46.25em) and (max-width : 163.9375em) {
+
+}
+
+/* Make all the button bigger so it is easy to press */
+/* Tablet & Mobile - max-width: 1023px */
+@media (max-width : 163.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .social-list {
+        font-size: 48px;
+    }
+
+    .social-list a {
+        margin: 0 8px;
+    }
+}
+
+/* Mobile max-width : 739px*/
+@media (max-width : 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header .burger-menu{
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+}
